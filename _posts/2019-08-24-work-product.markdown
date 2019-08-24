@@ -111,7 +111,7 @@ For reference, I will also include a list of the files containing the work produ
  
 Except for two Jamfiles, these files were all created from scratch during the GSoC.
 
-The above comparison contains the entire work product. Because of some branch reorganization, it does not reflect the complete history of the GSoC work and the time of the creation of most of the linked code. If the entire code history is of interest, [here](https://github.com/BoostGSoC19/geometry/compare/b4634fdb4520d722246ebfa06682fbd111cfe4d8...BoostGSoC19:feature/random_sampling). The correct dates of the individual commits can be found by clicking on the commit message.
+The above comparison contains the entire work product. Because of some branch reorganization, it does not reflect the complete history of the GSoC work and the time of the creation of most of the linked code. If the entire code history is of interest, it can be found [here](https://github.com/BoostGSoC19/geometry/compare/b4634fdb4520d722246ebfa06682fbd111cfe4d8...BoostGSoC19:feature/random_sampling). The correct dates of the individual commits can be found by clicking on the commit message.
 
 In the following passages, I will elaborate on the individual project goals and the work products in greater detail.
 
