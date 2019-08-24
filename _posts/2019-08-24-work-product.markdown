@@ -16,52 +16,96 @@ Close to the end of my [GSoC project][project], it is time to present the produc
 ## Work Product
 The entirety of the work product can be found in the [develop branch of the BooostGSoC19/geometry repository][boost-gsoc-develop], specifically in the commits of the following Github comparison: [https://github.com/BoostGSoC19/geometry/compare/5679ccd08fa5bd09c424a6a7878ad0dafc2c8f93...BoostGSoC19:4c1cf99ad9f20d85afe30b170501ab625a15b11b][work-product-comparison].
 For reference, here is a full list of the commits that make up the work product:
+
 [0704d7e660f9faa57f4c68eb1bd95cebb921b704](https://github.com/BoostGSoC19/geometry/commit/0704d7e660f9faa57f4c68eb1bd95cebb921b704)
+
 [0c4615575f9b10a4f522cb1096814f20f7a5a8b8](https://github.com/BoostGSoC19/geometry/commit/0c4615575f9b10a4f522cb1096814f20f7a5a8b8)
+
 [57632e189555f1089fc577d78492dae8ccc9c5d4](https://github.com/BoostGSoC19/geometry/commit/57632e189555f1089fc577d78492dae8ccc9c5d4)
+
 [a6bfe950c9e9ce4718abe1543316f91c80e1fe07](https://github.com/BoostGSoC19/geometry/commit/a6bfe950c9e9ce4718abe1543316f91c80e1fe07)
+
 [d906785184d48c84af6625f6960ecfdfc11abacf](https://github.com/BoostGSoC19/geometry/commit/d906785184d48c84af6625f6960ecfdfc11abacf)
+
 [b9a3660f47e8ddf818b28add26695a5b84102e12](https://github.com/BoostGSoC19/geometry/commit/b9a3660f47e8ddf818b28add26695a5b84102e12)
+
 [645f6ed4faf0ce72aba53ff42fcce05d2279c3ef](https://github.com/BoostGSoC19/geometry/commit/645f6ed4faf0ce72aba53ff42fcce05d2279c3ef)
+
 [cff87f3f28ed1088aece0860fa2e5bfc6e347a36](https://github.com/BoostGSoC19/geometry/commit/cff87f3f28ed1088aece0860fa2e5bfc6e347a36)
+
 [d140ddbb7c7f57f67fa5f7a5080651563bec80c7](https://github.com/BoostGSoC19/geometry/commit/d140ddbb7c7f57f67fa5f7a5080651563bec80c7)
+
 [74cad8410731a46c41b556563bbac38bd2095d8d](https://github.com/BoostGSoC19/geometry/commit/74cad8410731a46c41b556563bbac38bd2095d8d)
+
 [1f55c44bc9363e0c8b1b7c4ff1cbfe695d7dbec7](https://github.com/BoostGSoC19/geometry/commit/1f55c44bc9363e0c8b1b7c4ff1cbfe695d7dbec7)
+
 [f150cc1cb84d58458a8e958623d8806d52efb349](https://github.com/BoostGSoC19/geometry/commit/f150cc1cb84d58458a8e958623d8806d52efb349)
+
 [1156767e5a8d1243a682270da17b4fae8784dbae](https://github.com/BoostGSoC19/geometry/commit/1156767e5a8d1243a682270da17b4fae8784dbae)
+
 [4c1cf99ad9f20d85afe30b170501ab625a15b11b](https://github.com/BoostGSoC19/geometry/commit/4c1cf99ad9f20d85afe30b170501ab625a15b11b)
 
 For reference, I will also include a list of the files containing the work product:
 [extensions/example/Jamfile.v2](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/example/Jamfile.v2)
+
 [extensions/example/random/random\_example.cpp](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/example/random/random_example.cpp)
+
 [extensions/example/triangulation/Jamfile.v2](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/example/triangulation/Jamfile.v2)
+
 [extensions/example/triangulation/triangulation\_example.cpp](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/example/triangulation/triangulation_example.cpp)
+
 [extensions/test/Jamfile.v2](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/test/Jamfile.v2)
+
 [extensions/test/random/random.cpp](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/test/random/random.cpp)
+
 [extensions/test/triangulation/Jamfile.v2](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/test/triangulation/Jamfile.v2)
+
 [extensions/test/triangulation/in\_circle\_robust.cpp](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/test/triangulation/in_circle_robust.cpp)
+
 [extensions/test/triangulation/side\_robust.cpp](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/test/triangulation/side_robust.cpp)
+
 [extensions/test/triangulation/triangulation.cpp](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/test/triangulation/triangulation.cpp)
+
 [include/boost/geometry/extensions/random/detail/uniform\_point\_distribution.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/detail/uniform_point_distribution.hpp)
+
 [include/boost/geometry/extensions/random/dispatch/uniform\_point\_distribution.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/dispatch/uniform_point_distribution.hpp)
+
 [include/boost/geometry/extensions/random/strategies/agnostic/uniform\_envelope\_rejection.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/agnostic/uniform_envelope_rejection.hpp)
+
 [include/boost/geometry/extensions/random/strategies/agnostic/uniform\_linear.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/agnostic/uniform_linear.hpp)
+
 [include/boost/geometry/extensions/random/strategies/agnostic/uniform\_point\_distribution\_discrete.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/agnostic/uniform_point_distribution_discrete.hpp)
+
 [include/boost/geometry/extensions/random/strategies/cartesian/uniform\_point\_distribution\_box.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/cartesian/uniform_point_distribution_box.hpp)
+
 [include/boost/geometry/extensions/random/strategies/cartesian/uniform\_point\_distribution\_segment.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/cartesian/uniform_point_distribution_segment.hpp)
+
 [include/boost/geometry/extensions/random/strategies/spherical/edwilliams\_avform\_intermediate.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/spherical/edwilliams_avform_intermediate.hpp)
+
 [include/boost/geometry/extensions/random/strategies/spherical/uniform\_inverse\_transform\_sampling.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/spherical/uniform_inverse_transform_sampling.hpp)
+
 [include/boost/geometry/extensions/random/strategies/uniform\_point\_distribution.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/uniform_point_distribution.hpp)
+
 [include/boost/geometry/extensions/random/uniform\_point\_distribution.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/uniform_point_distribution.hpp)
+
 [include/boost/geometry/extensions/triangulation/algorithms/delaunay\_triangulation.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/algorithms/delaunay_triangulation.hpp)
+
 [include/boost/geometry/extensions/triangulation/geometries/triangulation.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/geometries/triangulation.hpp)
+
 [include/boost/geometry/extensions/triangulation/geometries/voronoi\_adaptor.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/geometries/voronoi_adaptor.hpp)
+
 [include/boost/geometry/extensions/triangulation/strategies/cartesian/accelerated\_shull.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/strategies/cartesian/accelerated_shull.hpp)
+
 [include/boost/geometry/extensions/triangulation/strategies/cartesian/detail/accelerated\_shull.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/strategies/cartesian/detail/accelerated_shull.hpp)
+
 [include/boost/geometry/extensions/triangulation/strategies/cartesian/detail/precise\_math.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/strategies/cartesian/detail/precise_math.hpp)
+
 [include/boost/geometry/extensions/triangulation/strategies/cartesian/in\_circle\_robust.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/strategies/cartesian/in_circle_robust.hpp)
+
 [include/boost/geometry/extensions/triangulation/strategies/cartesian/side\_robust.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/strategies/cartesian/side_robust.hpp)
+
 [include/boost/geometry/extensions/triangulation/strategies/delaunay\_triangulation.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/strategies/delaunay_triangulation.hpp)
+
 [include/boost/geometry/extensions/triangulation/triangulation.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/triangulation.hpp)
  
 Except for two Jamfiles, these files were all created from scratch during the GSoC.
@@ -73,22 +117,33 @@ In the following passages, I will elaborate on the individual project goals and 
 ## Robust geometric predicates
 ### Motivation
 The construction of a Delaunay triangulation usually (depending on the algorithm used) involves the repeated evaluation of two geometric predicates, namely the orientation check and the in-circle check. The orientation check determines on which side of a segment, given by two points, a third point lies and, consequently, whether the three given points constitute a valid, positively oriented triangle. The in-circle check determines whether the circumcircle of a given triangle contains the fourth given point and consequently, whether a triangulation containing this triangle as a face and the fourth point as a vertex violates the Delaunay property.
-A straightforward way to perform the orientation check is to compute the signed triangle area of the given three points. A triangle is valid and positively oriented if and only if its signed area is positive. We can express the signed areas of a triangle in [determinant form](https://proofwiki.org/wiki/Area_of_Triangle_in_Determinant_Form).  Boost.Geometry already includes a strategy that implements this method of checking orientation in the [side\_by\_triangle strategy](https://www.boost.org/doc/libs/1_71_0/libs/geometry/doc/html/geometry/reference/strategies/strategy_side_side_by_triangle.html). Similarly,  although not yet implemented as a strategy in Boost.Geometry, the in-circle check can also be performed by evaluating the sign of a determinant (see [here](http://mathworld.wolfram.com/Circumcircle.html)). However, due to the [limitations of floating-point arithmetics](https://en.wikipedia.org/wiki/Floating-point_arithmetic#Accuracy_problems), especially [cancellation](https://en.wikipedia.org/wiki/Loss_of_significance), the direct computation of these determinants may produce incorrect results. Such false results may cause the construction of a Delaunay triangulation to break down; therefore, they motivate the implementation of more robust geometric predicates.
+
+A straightforward way to perform the orientation check is to compute the signed triangle area of the given three points. A triangle is valid and positively oriented if and only if its signed area is positive. We can express the signed areas of a triangle in [determinant form](https://proofwiki.org/wiki/Area_of_Triangle_in_Determinant_Form).  Boost.Geometry already includes a strategy that implements this method of checking orientation in the [side\_by\_triangle strategy](https://www.boost.org/doc/libs/1_71_0/libs/geometry/doc/html/geometry/reference/strategies/strategy_side_side_by_triangle.html). Similarly,  although not yet implemented as a strategy in Boost.Geometry, the in-circle check can also be performed by evaluating the sign of a determinant (see [here](http://mathworld.wolfram.com/Circumcircle.html)).
+
+However, due to the [limitations of floating-point arithmetics](https://en.wikipedia.org/wiki/Floating-point_arithmetic#Accuracy_problems), especially [cancellation](https://en.wikipedia.org/wiki/Loss_of_significance), the direct computation of these determinants may produce incorrect results. Such false results may cause the construction of a Delaunay triangulation to break down; therefore, they motivate the implementation of more robust geometric predicates.
 
 ### Design
 There are various ways to work around the limited precision of floating-point types, some of which, such as using exact number types for all calculations or extended precision incur heavy performance penalties. I have instead chosen to implement the adaptive, robust predicates described by Jonathan Richard Shewchuk in his article [Adaptive Precision Floating-Point Arithmetic and Fast Robust Geometric Predicates](https://doi.org/10.1007/PL00009321) (paper and more information is freely available at [www.cs.cmu.edu/~quake/robust.html](https://www.cs.cmu.edu/~quake/robust.html) at the time of writing this).
+
 The basic idea is to compute non-overlapping expansions of floating-point computation results that contain the bits of the result that would be eliminated by the rounding aspect of direct floating-point arithmetics. The full expansion of a calculation then represents its result at full precision, which makes the computation robust. The implementation is made adaptive by computing the parts of the expansions of interim results in decreasing order of their significance in the final result. At various stages of the computation, the incomplete result is checked against error bounds and, if the sign of the result is already guaranteed, the calculation is terminated early. This means that, for most inputs, the amount of work done is not much higher than with standard floating-point arithmetics.
+
 I have chosen to implement the robust predicates as described by Shewchuk because they are fast and well-described such that they were easy to implement.
 
 ### Work Product
 I have implemented the methods from the linked paper that were used in the orient2d and incircle functions. The actual implementation of the calculations can be found in [include/boost/geometry/extensions/triangulation/strategies/cartesian/detail/precise\_math.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/strategies/cartesian/detail/precise_math.hpp). Comparing them to the [original C implementation](https://www.cs.cmu.edu/afs/cs/project/quake/public/code/predicates.c), allows me to highlight some design choices that were enabled by the use of modern C++.
+
 Instead of computing epsilon and splitter at run-time and storing them in global variables, my implementation does not involve any global variables and instead computes epsilon and splitter at compile-time (depending on constexpr-support) using the numerical_limits header from the STL.
+
 Rather than macros for smaller math functions, I have used templates, which delegates micro-optimization related decisions about inlining to the compiler and allows better scoping of temporary variables.
 Rather than passing points, I was able to make use of the std::array class, which makes array bounds explicit throughout the whole code.
+
 Because I used templates, it was easy to add a compile-time parameter that allows the user of the implementation to specify the maximum precision.
+
 Having the mathematics implemented in the detail-namespace, I then added strategies in two classes
 [include/boost/geometry/extensions/triangulation/strategies/cartesian/side\_robust.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/strategies/cartesian/side_robust.hpp)
+
 [include/boost/geometry/extensions/triangulation/strategies/cartesian/in\_circle\_robust.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/strategies/cartesian/in_circle_robust.hpp)
+
 These classes also contain the documentation of my work. Finally, I have implemented two test cases [for the orientation test](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/test/triangulation/side_robust.cpp) and [for the in-circle test](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/strategies/cartesian/in_circle_robust.hpp) with numbers that would produce incorrect results in a non-robust implementation.
 
 ## Triangulation, Triangle and Voronoi data structures
@@ -108,7 +163,9 @@ My implementation of a triangulation data structure can be found in [include/boo
  * The triangulation always holds an iterator to a boundary vertex to simplify iteration over the boundary edges.
  * If a vertex lies on the boundary, the iterator stored to an incident face will point to a face with two boundary vertices. This simplifies the stop-criterion for the iteration over its incident faces or its neighboring vertices.
 * Several free functions that return ranges are provided, such us, for vertices, the range of incident faces and incident vertices, and, for faces, the range of adjacent faces, incident faces, and vertices.
+
 My implementation of the Voronoi diagram data structure can be found in [include/boost/geometry/extensions/triangulation/geometries/voronoi\_adaptor.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/geometries/voronoi_adaptor.hpp)
+
 It consists of two classes
 * The `voronoi_vertex_view` is constructed from a triangulation face and allows to access it as the corresponding Voronoi vertex (which is equal to the circumcircle center of the face.
 * The `voronoi_face_view` is constructed from a triangulation vertex.
@@ -119,6 +176,7 @@ I adapted the S-Hull algorithm as described in [S-hull: a fast radial sweep-hull
 
 ### Work Product
 The function that is used to call the construction is implemented in [include/boost/geometry/extensions/triangulation/algorithms/delaunay\_triangulation.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/algorithms/delaunay_triangulation.hpp), but the actual implementation has been delegated to a construction strategy because it is coordinate-system and dimension-specific and more construction strategies may be added in the future. The construction has been implemented in [include/boost/geometry/extensions/triangulation/strategies/cartesian/accelerated\_shull.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/strategies/cartesian/accelerated_shull.hpp).
+
 Additionally, I produced a unit test in [extensions/test/triangulation/triangulation.cpp](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/test/triangulation/triangulation.cpp) that produces a small triangulation and an example in [extensions/example/triangulation/triangulation\_example.cpp](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/example/triangulation/triangulation_example.cpp) that demonstrates basic usage of the triangulation and the Voronoi adapter. The output file of the example is the following graphic:
 <img src="/images/triangulation_example.svg" width="720px" height="720px">
 
@@ -135,10 +193,12 @@ The general interface of uniform point distributions can be found in [include/bo
 * [include/boost/geometry/extensions/random/strategies/cartesian/uniform\_point\_distribution\_segment.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/cartesian/uniform_point_distribution_segment.hpp) generates uniform points on cartesian line segments by applying a linear map to a number from zero to one.
 * [include/boost/geometry/extensions/random/strategies/spherical/edwilliams\_avform\_intermediate.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/spherical/edwilliams_avform_intermediate.hpp) contains a strategy to sample uniformly from spherical segments using the formula found at [www.edwilliams.org/avform.htm#Intermediate](https://www.edwilliams.org/avform.htm#Intermediate).
 * [include/boost/geometry/extensions/random/strategies/spherical/uniform\_inverse\_transform\_sampling.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/spherical/uniform_inverse_transform_sampling.hpp) is a strategy to generate uniform points in a sphere using inverse transform sampling.
+
 After implementing the strategies, I added a unit test in [extensions/test/random/random.cpp](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/test/random/random.cpp). The test checks whether
 * point distributions are correctly recovered from `operator<<` and `operator>>`, 
 * the generated points lie in the domain,
 * the results are roughly uniformly distributed.
+
 Finally, I've added an example for Random Point Geometries. The example shows how to generate points in various cartesian geometries as well as one instance of spherical distributions. Its output file is the following graphic:
 <img src="/images/random_example.svg" width="720px" height="720px">
 
