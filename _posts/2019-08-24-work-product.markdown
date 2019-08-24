@@ -46,6 +46,7 @@ For reference, here is a full list of the commits that make up the work product:
 [4c1cf99ad9f20d85afe30b170501ab625a15b11b](https://github.com/BoostGSoC19/geometry/commit/4c1cf99ad9f20d85afe30b170501ab625a15b11b)
 
 For reference, I will also include a list of the files containing the work product:
+
 [extensions/example/Jamfile.v2](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/example/Jamfile.v2)
 
 [extensions/example/random/random\_example.cpp](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/example/random/random_example.cpp)
