@@ -180,6 +180,7 @@ The function that is used to call the construction is implemented in [include/bo
 
 Additionally, I produced a unit test in [extensions/test/triangulation/triangulation.cpp](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/test/triangulation/triangulation.cpp) that produces a small triangulation and an example in [extensions/example/triangulation/triangulation\_example.cpp](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/example/triangulation/triangulation_example.cpp) that demonstrates basic usage of the triangulation and the Voronoi adapter. The output file of the example is the following graphic:
 <img src="/images/triangulation_example.svg" width="720px" height="720px">
+The blue triangles are the faces of the Delaunay triangulation and the red lines are the Voronoi edges excluding infinite edges.
 
 ## Random Point Distributions
 ### Design
@@ -187,7 +188,7 @@ Since there was no concept of geometry distributions in Boost.Geometry before, I
 
 ### Work Product
 The general interface of uniform point distributions can be found in [include/boost/geometry/extensions/random/uniform\_point\_distribution.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/uniform_point_distribution.hpp). To stay true to the strategy-paradigm of Boost.Geometry, I implemented the CS- and Geometry-specific code in strategies.
-* [include/boost/geometry/extensions/random/strategies/agnostic/uniform_envelope_rejection.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/agnostic/uniform_envelope_rejection.hpp) contains a CS-agnostic strategy that applies to areal geometries in 2D spaces, such as polygons, and to volumetric geometries in 3D spaces. Samples are obtained by computing the envelope and sampling uniformly in the envelope. If the resulting point is within the geometry, the function returns it. Otherwise, it samples a new point. Uniform sampling in the box is done by delegating to a uniform_point_distribution for a box.
+* [include/boost/geometry/extensions/random/strategies/agnostic/uniform\_envelope\_rejection.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/agnostic/uniform_envelope_rejection.hpp) contains a CS-agnostic strategy that applies to areal geometries in 2D spaces, such as polygons, and to volumetric geometries in 3D spaces. Samples are obtained by computing the envelope and sampling uniformly in the envelope. If the resulting point is within the geometry, the function returns it. Otherwise, it samples a new point. Uniform sampling in the box is done by delegating to a `uniform_point_distribution` for a box.
 * [include/boost/geometry/extensions/random/strategies/agnostic/uniform\_linear.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/agnostic/uniform_linear.hpp) contains a CS-agnostic strategy that applies to line strings and multi-line strings, by storing a list of the accumulated lengths of all pieces, sampling a number between zero and the total length and mapping that to the appropriate subsegment. The mapping on the specific subsegment is then performed by a CS-specific strategy.
 * [include/boost/geometry/extensions/random/strategies/agnostic/uniform\_point\_distribution\_discrete.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/agnostic/uniform_point_distribution_discrete.hpp) contains a CS-agnostic strategy for sampling in single points (trivial) and multi-points, which is done by sampling an integer between 0 and the number of points minus 1 and returning the corresponding point.
 * [include/boost/geometry/extensions/random/strategies/cartesian/uniform\_point\_distribution\_box.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/cartesian/uniform_point_distribution_box.hpp) contains a strategy for uniform sampling in cartesian boxes. It works by generating n numbers for an n-dimensional box and then create a point from it. This strategy assumes uniformity in high-dimensions from the Generator.
@@ -202,6 +203,12 @@ After implementing the strategies, I added a unit test in [extensions/test/rando
 
 Finally, I've added an example for Random Point Geometries. The example shows how to generate points in various cartesian geometries as well as one instance of spherical distributions. Its output file is the following graphic:
 <img src="/images/random_example.svg" width="720px" height="720px">
+From top to bottom and left to right, the drawn images represent points from instances of `uniform_point_distribution` with the following domains:
+1. A box (0° 0°, 90° 90°) with spherical coordinates. The points are drawn by directly using longitude and latitude as x- and y-coordinates. It should be noted that this representation is deceiving with regard to the uniformity of the points because it makes points around the north pole (at the top of the image) look further apart than they actually are.
+2. A multipoint with cartesian coordinates.
+3. A polygon with cartesian coordinates.
+4. A 2D box with cartesian coordinates.
+5. A 2D segment with cartesian coordinates.
 
 [project]: https://summerofcode.withgoogle.com/projects/#5605229809106944
 [gsoc-repo]: https://github.com/BoostGSoC19/geometry
