@@ -14,7 +14,7 @@ Close to the end of my [GSoC project][project], it is time to present the produc
 * uniform point distributions for various types of domains
 
 ## Work Product
-The entirety of the work product can be found in the [develop branch of the BooostGSoC19/geometry repository][boost-gsoc-develop], specifically in the commits of the following Github comparison: [https://github.com/BoostGSoC19/geometry/compare/5679ccd08fa5bd09c424a6a7878ad0dafc2c8f93...BoostGSoC19:4c1cf99ad9f20d85afe30b170501ab625a15b11b][work-product-comparison].
+The entirety of the work product can be found in the [develop branch of the BooostGSoC19/geometry repository][boost-gsoc-develop], specifically in the commits of the following Github comparison: [https://github.com/BoostGSoC19/geometry/compare/5679ccd08fa5bd09c424a6a7878ad0dafc2c8f93...BoostGSoC19:bad1b9c5a2f4f458284a912a848a25e73c28014b](https://github.com/BoostGSoC19/geometry/compare/5679ccd08fa5bd09c424a6a7878ad0dafc2c8f93...BoostGSoC19:bad1b9c5a2f4f458284a912a848a25e73c28014b) (Updated on 2019-08-25, was: [https://github.com/BoostGSoC19/geometry/compare/5679ccd08fa5bd09c424a6a7878ad0dafc2c8f93...BoostGSoC19:4c1cf99ad9f20d85afe30b170501ab625a15b11b][work-product-comparison]).
 For reference, here is a full list of the commits that make up the work product:
 
 [0704d7e660f9faa57f4c68eb1bd95cebb921b704](https://github.com/BoostGSoC19/geometry/commit/0704d7e660f9faa57f4c68eb1bd95cebb921b704)
@@ -44,6 +44,14 @@ For reference, here is a full list of the commits that make up the work product:
 [1156767e5a8d1243a682270da17b4fae8784dbae](https://github.com/BoostGSoC19/geometry/commit/1156767e5a8d1243a682270da17b4fae8784dbae)
 
 [4c1cf99ad9f20d85afe30b170501ab625a15b11b](https://github.com/BoostGSoC19/geometry/commit/4c1cf99ad9f20d85afe30b170501ab625a15b11b)
+
+(Update on 2019-08-25, the following new commits were added)
+
+[e981c4656edeb446f09bfb863e87d29499da67f9](https://github.com/BoostGSoC19/geometry/commit/e981c4656edeb446f09bfb863e87d29499da67f9)
+
+[361861ca9fb37e37aad36f81bfbee84b686bd3e1](https://github.com/BoostGSoC19/geometry/commit/361861ca9fb37e37aad36f81bfbee84b686bd3e1)
+
+[bad1b9c5a2f4f458284a912a848a25e73c28014b](https://github.com/BoostGSoC19/geometry/commit/bad1b9c5a2f4f458284a912a848a25e73c28014b)
 
 For reference, I will also include a list of the files containing the work product:
 
@@ -109,6 +117,14 @@ For reference, I will also include a list of the files containing the work produ
 
 [include/boost/geometry/extensions/triangulation/triangulation.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/triangulation.hpp)
  
+(Update on 2019-08-25, the following new files were added)
+
+[include/boost/geometry/extensions/random/strategies/agnostic/uniform\_convex\_fan.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/agnostic/uniform_convex_fan.hpp)
+
+[include/boost/geometry/extensions/random/strategies/agnostic/uniform\_convex\_hull\_rejection.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/agnostic/uniform_convex_hull_rejection.hpp)
+
+[include/boost/geometry/extensions/random/strategies/cartesian/uniform\_point\_distribution\_triangle.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/cartesian/uniform_point_distribution_triangle.hpp)
+
 Except for two Jamfiles, these files were all created from scratch during the GSoC.
 
 The above comparison contains the entire work product. Because of some branch reorganization, it does not reflect the complete history of the GSoC work and the time of the creation of most of the linked code. If the entire code history is of interest, it can be found [here](https://github.com/BoostGSoC19/geometry/compare/b4634fdb4520d722246ebfa06682fbd111cfe4d8...BoostGSoC19:feature/random_sampling). The correct dates of the individual commits can be found by clicking on the commit message.
@@ -133,7 +149,7 @@ I have chosen to implement the robust predicates as described by Shewchuk becaus
 ### Work Product
 I have implemented the methods from the linked paper that were used in the orient2d and incircle functions. The actual implementation of the calculations can be found in [include/boost/geometry/extensions/triangulation/strategies/cartesian/detail/precise\_math.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/strategies/cartesian/detail/precise_math.hpp). Comparing them to the [original C implementation](https://www.cs.cmu.edu/afs/cs/project/quake/public/code/predicates.c), allows me to highlight some design choices that were enabled by the use of modern C++.
 
-Instead of computing epsilon and splitter at run-time and storing them in global variables, my implementation does not involve any global variables and instead computes epsilon and splitter at compile-time (depending on constexpr-support) using the numerical_limits header from the STL.
+Instead of computing epsilon and splitter at run-time and storing them in global variables, my implementation does not involve any global variables and instead computes epsilon and splitter at compile-time (depending on constexpr-support) using the numerical\_limits header from the STL.
 
 Rather than macros for smaller math functions, I have used templates, which delegates micro-optimization related decisions about inlining to the compiler and allows better scoping of temporary variables.
 Rather than passing points, I was able to make use of the std::array class, which makes array bounds explicit throughout the whole code.
@@ -157,7 +173,7 @@ I implemented the triangulation as a list of vertices and faces with references 
 ### Work Product
 My implementation of a triangulation data structure can be found in [include/boost/geometry/extensions/triangulation/geometries/triangulation.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/triangulation/geometries/triangulation.hpp). I will again highlight some design choices:
 * The vertex struct contains a point and a face-iterator to one of its adjacent faces. All necessary traits are declared so that vertex instances can be directly treated as points by other Boost.Geometry algorithms. Holding a face-iterator rather than a face-index allows iterating over neighboring vertices and faces without passing a reference to the triangulation itself.
-* The face struct contains an array of three vertex-iterators. Using boost:indirect_iterator the face can be directly treated as a range of vertices so that it can be made to conform to the ring concept. Other than that, it stores iterators to its three neighboring faces and additionally the indices for half-edge reversal.
+* The face struct contains an array of three vertex-iterators. Using boost:indirect\_iterator the face can be directly treated as a range of vertices so that it can be made to conform to the ring concept. Other than that, it stores iterators to its three neighboring faces and additionally the indices for half-edge reversal.
 * The triangulation requires a point type as a template parameter. It optionally allows specifying the triangle orientation and the type of containers that are used, as well as their allocators. By default, triangles are oriented counterclockwise, and vectors are used to store faces and vertices. Since by construction, iterator stability is necessary, the number of vertices must be provided in advance if vectors are used. If that is undesirable, a user may opt to use container types with better iterator stability.
 * Several invariants are maintained to simplify navigation over the triangulation. 
  * The i-th neighbor of each triangle is the face opposite to its i-th vertex. This simplifies flip operations.
@@ -195,6 +211,9 @@ The general interface of uniform point distributions can be found in [include/bo
 * [include/boost/geometry/extensions/random/strategies/cartesian/uniform\_point\_distribution\_segment.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/cartesian/uniform_point_distribution_segment.hpp) generates uniform points on cartesian line segments by applying a linear map to a number from zero to one.
 * [include/boost/geometry/extensions/random/strategies/spherical/edwilliams\_avform\_intermediate.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/spherical/edwilliams_avform_intermediate.hpp) contains a strategy to sample uniformly from spherical segments using the formula found at [www.edwilliams.org/avform.htm#Intermediate](https://www.edwilliams.org/avform.htm#Intermediate).
 * [include/boost/geometry/extensions/random/strategies/spherical/uniform\_inverse\_transform\_sampling.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/spherical/uniform_inverse_transform_sampling.hpp) is a strategy to generate uniform points in a sphere using inverse transform sampling.
+* [include/boost/geometry/extensions/random/strategies/agnostic/uniform\_convex\_hull\_rejection.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/agnostic/uniform_convex_hull_rejection.hpp) contains a strategy that is similar to uniform\_envelope\_rejection. A strategy for sampling on triangles and for computing the area of a triangle need to be provided (for example: side\_by\_triangle). (Added on 2019-08-25)
+* [include/boost/geometry/extensions/random/strategies/agnostic/uniform\_convex\_fan.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/agnostic/uniform_convex_fan.hpp) is a strategy for uniform sampling in rings that are convex. It requires a strategy for sampling on triangles and for computing the area of a triangle as well. (Added on 2019-08-25)
+* [include/boost/geometry/extensions/random/strategies/cartesian/uniform\_point\_distribution\_triangle.hpp](https://github.com/BoostGSoC19/geometry/blob/develop/include/boost/geometry/extensions/random/strategies/cartesian/uniform_point_distribution_triangle.hpp) is a strategy for uniform sampling in 2d cartesian triangles. It can be used as a template parameter for the previous two strategies. (Added on 2019-08-25)
 
 After implementing the strategies, I added a unit test in [extensions/test/random/random.cpp](https://github.com/BoostGSoC19/geometry/blob/develop/extensions/test/random/random.cpp). The test checks whether
 * point distributions are correctly recovered from `operator<<` and `operator>>`, 
