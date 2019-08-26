@@ -229,6 +229,13 @@ From top to bottom and left to right, the drawn images represent points from ins
 4. A 2D box with cartesian coordinates.
 5. A 2D segment with cartesian coordinates.
 
+(Update 2019-08-26 19:50 CEST)
+The following two images show two more interesting usages. The first is a Voronoi diagram of German airports.
+<img src="/images/triangulation_germany.svg" width="720px" height="720px">
+The second is an image of 1,000 uniformy distributed points sampled in the boundaries of Germany.
+<img src="/images/random_germany.svg" width="720px" height="720px">
+
+
 [project]: https://summerofcode.withgoogle.com/projects/#5605229809106944
 [gsoc-repo]: https://github.com/BoostGSoC19/geometry
 [boost-geometry]: https://github.com/boostorg/geometry
