@@ -235,6 +235,7 @@ The following two images show two more interesting usages. The first is a Vorono
 The second is an image of 1,000 uniformy distributed points sampled in the boundaries of Germany.
 <img src="/images/random_germany.svg" width="720px" height="720px">
 
+All SVG files in this blog post are licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license. The airport data in the Voronoi Diagram example is derived from the airports.dat from openflights.org.
 
 [project]: https://summerofcode.withgoogle.com/projects/#5605229809106944
 [gsoc-repo]: https://github.com/BoostGSoC19/geometry
