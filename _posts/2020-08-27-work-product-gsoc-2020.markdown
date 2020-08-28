@@ -5,7 +5,7 @@ date:   2020-08-27 20:40:00 +0200
 categories: gsoc2020
 ---
 
-After participating in the Google Summer of Code with [Boost.Geometry][boost-geometry] a second time, I want to present my [project][project] results.
+After participating in the Google Summer of Code a second time, I want to present my [project][project] results. The project was with [Boost.Geometry][boost-geometry] and mentored by Vissarion Fisikopoulos.
 
 ### Project goal
 
