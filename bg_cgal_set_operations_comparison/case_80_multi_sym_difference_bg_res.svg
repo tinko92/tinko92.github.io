@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 300 300" version="1.1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+<g fill-rule="evenodd"><path d="M 225,150 L 225,200 L 175,250 L 125,250 L 125,100 L 75,100 L 25,150 L 25,100 L 75,50 L 75,0 L 125,50 L 125,0 L 175,50 L 150,75 L 225,150M 175,200 L 225,150 L 175,150 L 175,200 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 175,50 L 225,50 L 225,100 L 175,100 L 175,50 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 25,150 L 75,150 L 75,200 L 25,200 L 25,150 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 225,100 L 275,50 L 275,100 L 225,100 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 275,100 L 275,150 L 225,150 L 275,100 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 225,200 L 275,200 L 225,250 L 225,200 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 75,0 L 25,50 L 25,0 L 75,0 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 175,250 L 225,250 L 175,300 L 175,250 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+</svg>

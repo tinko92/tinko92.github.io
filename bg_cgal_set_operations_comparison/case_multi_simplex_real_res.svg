@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 300 300" version="1.1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+<g fill-rule="evenodd"><path d="M 0,240.0 L 85.7142,205.714 L 40.0002,160.000 L 0,240.0 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 60.0,240.0 L 140.000,260.000 L 108.000,228.000 L 60.0,240.0 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 79.9998,79.9998 L 171.428,34.2858 L 120.0,0 L 79.9998,79.9998 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 185.714,271.429 L 300.0,300.0 L 300.0,180.0 L 198.947,205.263 L 185.714,271.429 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 208.696,156.522 L 300.0,120.0 L 225.883,70.5882 L 208.696,156.522 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+</svg>

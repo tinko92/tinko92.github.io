@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 31.0518 45.2235">
+<g title="A + B (CGAL Real)" fill-rule="evenodd">
+<path d="M 10.9615,39.2773 L 11.2425,39.3971 L 10.8220,39.5975 L 10.9615,39.2773 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.113059" />
+<path d="M 18.9169,33.2928 L 19.8235,35.3088 L 19.8235,35.3088 L 18.9169,33.2928 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.113059" />
+<path d="M 20.0514,29.2920 L 21.1125,31.6757 L 21.1125,31.6757 L 20.0870,29.3720 L 16.2274,33.3793 L 20.0514,29.2920 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.113059" />
+<path d="M 24.6162,7.39910 L 30.8253,0.26040 L 30.8253,0.26040 L 24.6162,7.39910 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.113059" />
+</g></svg>

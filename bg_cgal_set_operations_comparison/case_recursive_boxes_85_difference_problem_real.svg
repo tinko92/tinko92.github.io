@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 300 300" version="1.1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+<g fill-rule="evenodd"><path d="M 214.286,214.286 L 214.286,171.429 L 257.143,171.429 L 257.143,214.286 L 214.286,214.286 z " style="fill-opacity:0.3;fill:rgb(255,0,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 257.143,85.7143 L 257.143,42.8571 L 300.000,42.8571 L 300.000,85.7143 L 257.143,85.7143 z " style="fill-opacity:0.3;fill:rgb(255,0,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 128.571,42.8571 L 42.8571,42.8571 L 85.7143,0 L 128.571,0 L 128.571,42.8571 z " style="fill-opacity:0.3;fill:rgb(255,0,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 128.571,42.8571 L 128.571,85.7143 L 85.7143,85.7143 L 85.7143,42.8571 L 107.143,64.2857 L 128.571,42.8571 z " style="fill-opacity:0.3;fill:rgb(255,0,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 85.7143,85.7143 L 85.7143,42.8571 L 128.571,42.8571 L 85.7143,85.7143 z " style="fill-opacity:0.3;fill:rgb(0,255,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 257.143,257.143 L 257.143,214.286 L 300.000,214.286 L 257.143,257.143 z " style="fill-opacity:0.3;fill:rgb(0,255,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 214.286,128.571 L 214.286,85.7143 L 257.143,128.571 L 214.286,128.571 z " style="fill-opacity:0.3;fill:rgb(0,255,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 0,42.8571 L 0,0 L 42.8571,0 L 0,42.8571 z " style="fill-opacity:0.3;fill:rgb(0,255,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 128.571,171.429 L 128.571,214.286 L 85.7143,214.286 L 128.571,171.429 z " style="fill-opacity:0.3;fill:rgb(0,255,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 128.571,171.429 L 128.571,128.571 L 171.429,85.7143 L 171.429,128.571 L 128.571,171.429 z " style="fill-opacity:0.3;fill:rgb(0,255,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 171.429,128.571 L 214.286,171.429 L 171.429,171.429 L 171.429,128.571 z " style="fill-opacity:0.3;fill:rgb(0,255,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+</svg>

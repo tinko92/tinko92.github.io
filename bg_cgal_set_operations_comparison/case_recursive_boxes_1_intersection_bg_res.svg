@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 300 300" version="1.1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+<g fill-rule="evenodd"><path d="M 150,300 L 0,300 L 0,270 L 30,270 L 60,270 L 60,240 L 90,240 L 90,210 L 30,210 L 30,240 L 0,240 L 0,180 L 60,180 L 60,150 L 90,150 L 90,120 L 150,120 L 150,150 L 120,150 L 120,180 L 120,210 L 150,210 L 150,240 L 180,240 L 180,270 L 150,270 L 150,300 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 30,0 L 120,0 L 120,30 L 90,30 L 60,30 L 60,60 L 30,60 L 30,0 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 180,0 L 270,0 L 270,30 L 210,30 L 210,60 L 180,60 L 150,60 L 150,90 L 120,90 L 120,30 L 180,30 L 180,0 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 210,240 L 240,240 L 240,300 L 210,300 L 210,240 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 210,90 L 210,120 L 180,120 L 150,120 L 150,90 L 210,90 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 0,150 L 0,90 L 60,90 L 60,120 L 30,120 L 30,150 L 0,150 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 270,180 L 240,180 L 240,150 L 210,150 L 210,120 L 270,120 L 270,180 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 240,210 L 210,210 L 210,180 L 240,180 L 240,210 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 300,240 L 300,300 L 270,300 L 270,240 L 300,240 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 300,60 L 300,120 L 270,120 L 270,90 L 240,90 L 240,60 L 300,60 z " style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:1"/></g>
+</svg>

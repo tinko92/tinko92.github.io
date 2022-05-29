@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2 2">
+<g title="A - B (CGAL Real)" fill-rule="evenodd">
+<path d="M 3.78317e-18,0.93757 L 2.61235e-7,0.93757 L 2.42707e-7,1.08627 L 8.92000e-9,1.08627 L 3.78317e-18,0.93757 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.005000" />
+<path d="M 2.15500e-8,0.28638 L 1.48629e-7,0.28638 L 1.63794e-7,0.50608 L 0.09000,0.63924 L 0.09000,0.39317 L 0.64272,1.21100 L 0.63917,1.29295 L 0.55974,1.31341 L 0.09000,1.12280 L 0.09000,0.97409 L 0.40183,1.10063 L 6.40000e-10,0.50608 L 2.15500e-8,0.28638 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.005000" />
+</g></svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 5 5">
+<g title="A + B (CGAL EPECK)" fill-rule="evenodd">
+<path d="M 2.85714,4.42857 L 1.33333,3.66667 L 2.0,5.0 L 2.85714,4.42857 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.012500" />
+<path d="M 2.85714,4.42857 L 4.0,5.0 L 3.76471,3.82353 L 2.85714,4.42857 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.012500" />
+<path d="M 1.33333,3.66667 L 0.66667,2.33333 L 0,3.0 L 1.33333,3.66667 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.012500" />
+<path d="M 1.42857,1.57143 L 0,1.0 L 0.66667,2.33333 L 1.42857,1.57143 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.012500" />
+<path d="M 1.42857,1.57143 L 3.47826,2.39130 L 3.31579,1.57895 L 1.80000,1.20000 L 1.42857,1.57143 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.012500" />
+<path d="M 3.47826,2.39130 L 3.76471,3.82353 L 5.0,3.0 L 3.47826,2.39130 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.012500" />
+<path d="M 3.09524,0.47619 L 3.31579,1.57895 L 5.0,2.0 L 5.0,0 L 3.09524,0.47619 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.012500" />
+<path d="M 3.09524,0.47619 L 3.0,0 L 2.33333,0.66667 L 3.09524,0.47619 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.012500" />
+<path d="M 2.33333,0.66667 L 1.0,1.0 L 1.80000,1.20000 L 2.33333,0.66667 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.012500" />
+</g></svg>

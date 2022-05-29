@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 300 300" version="1.1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+<g fill-rule="evenodd"><path d="M 136.092,178.182 L 130.401,183.782 L 99.5563,214.076 L 68.7118,244.37 L 37.3164,234.455 L 28.0447,249.786 L 189.887,249.786 L 161.796,157.895 z " style="fill-opacity:0.3;fill:rgb(255,0,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 130.401,178.274 L 161.796,149.082 L 192.641,247.124 L 223.485,233.354 L 245.884,148.439 L 254.881,108.323 L 261.766,104.651 L 285.725,70.869 L 285.725,71.4198 L 285.725,91.7993 L 262.867,104.1 L 254.881,115.483 L 242.58,163.035 L 223.485,248.225 L 218.804,249.786 L 293.528,249.786 L 293.528,0 L 14.3666,0 L 14.3666,249.786 L 17.855,249.786 L 37.3164,219.584 L 68.7118,234.455 L 99.5563,207.466 L 102.953,204.712 L 99.5563,208.017 L 103.045,204.621 L 102.953,204.712 z " style="fill-opacity:0.3;fill:rgb(255,0,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 6.47185,254.284 L 6.47185,267.503 L 27.0349,235.557 z " style="fill-opacity:0.3;fill:rgb(0,255,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 225.505,239.229 L 223.485,244.37 L 220.823,249.143 L 223.485,248.225 z " style="fill-opacity:0.3;fill:rgb(0,255,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 285.725,91.7993 L 254.881,108.323 L 225.505,239.229 L 254.881,163.953 L 285.725,154.59 z " style="fill-opacity:0.3;fill:rgb(0,255,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+<g fill-rule="evenodd"><path d="M 220.823,249.143 L 192.641,258.69 L 161.796,157.895 L 130.401,182.681 L 99.5563,207.466 L 68.7118,234.455 L 37.3164,219.584 L 27.0349,235.557 L 37.3164,226.193 L 68.7118,235.557 L 99.5563,220.135 L 130.401,205.814 L 161.796,192.044 L 192.641,300 z " style="fill-opacity:0.3;fill:rgb(0,255,0);stroke:rgb(0,0,0);stroke-width:1"/></g>
+</svg>

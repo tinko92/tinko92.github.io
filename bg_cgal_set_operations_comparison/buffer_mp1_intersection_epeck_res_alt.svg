@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 6 6">
+<g title="A + B (CGAL EPECK)" fill-rule="evenodd">
+<path d="M 2.01096,3.79094 L 2.0437,3.58418 L 2.09789,3.38197 L 2.17291,3.18653 L 2.26795,3 L 2.38197,2.82443 L 2.51371,2.66174 L 2.66174,2.51371 L 2.82443,2.38197 L 3,2.26795 L 3.18653,2.17291 L 3.38197,2.09789 L 3.58418,2.0437 L 3.79094,2.01096 L 4,2 L 3.98904,2.20906 L 3.9563,2.41582 L 3.90211,2.61803 L 3.82709,2.81347 L 3.73205,3 L 3.61803,3.17557 L 3.48629,3.33826 L 3.33826,3.48629 L 3.17557,3.61803 L 3,3.73205 L 2.81347,3.82709 L 2.61803,3.90211 L 2.41582,3.9563 L 2.20906,3.98904 L 2,4 L 2.01096,3.79094 z" style="fill-opacity:0.3;fill:rgb(0,0,255);stroke:rgb(51,51,153);stroke-width:0.015000" />
+</g></svg>
